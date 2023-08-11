@@ -1,0 +1,219 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+li{
+    list-style: none;
+}
+
+/* heading tag start */
+h1{
+ color: #FFF;
+font-size: 56px;
+font-style: normal;
+font-weight: 600;
+line-height: 68px; 
+}
+h2{
+color: #232536;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 58px; 
+}
+
+h3{
+color: #232536;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 54px; 
+}
+
+h4{
+    color: #232536;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; 
+}
+
+h6{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 175% */
+}
+/* heading tag end */
+
+p{
+    color: #5D5F6D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+tag-line{
+color: #000;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+
+.section-padding{
+    padding: 60px 0;
+}
+.c-p-right {
+    padding-right: 100px;
+}
+
+.c-p-left {
+    padding-left: 100px;
+}
+/* all btn here */
+
+.btn-blue{
+
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    padding: 16px 30px ;
+    background: #444CFC;    
+}
+
+/* all btn here */
+
+/* menu section start */
+.menu-section{
+    background: #232536;
+}
+.menu-section .navbar-nav .nav-item .nav-link{
+color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+margin-left: 30px;
+opacity: 0.6000000238418579;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #FFF;
+    opacity: 100%;
+}
+/* menu section end */
+
+/* hero section start */
+.hero{
+    background-color:#232536; 
+    padding: 35px 0 5px 0 ;
+    border:  rgba(255, 255, 255, 0.05) 1px;
+
+}
+
+/* hero section end */
+
+/* clints section start */
+.clinets{
+    background: #232536;
+    padding-bottom: 20px;
+   
+}
+.client{
+    display: flex;
+    justify-content: space-between;
+   
+    img{
+        width: 100%;
+    }
+}
+/* clints section end */
+
+
+/* about section start */
+
+/* about section end */
+
+/* exprtise section start */
+.exprtise{
+    background: #ECF8F9;
+}
+/* exprtise section end */
+
+/* service section strat */
+.service{
+    background: #FFE6D2;
+}
+/* service section end */
+
+/* process section start */
+.process .box-one .count{
+    right: 15px;
+    top: 18px;
+}
+/* process section end */
+
+/* customer section start */
+.customer{
+    background: #F9F9FF;
+    
+}
+/* customer section end */
+
+/* blog section satrt */
+.blog{
+    background: #ECF8F9;
+    
+}
+/* blog section end */
+
+/* news letter section start */
+.news .blue-color{
+    background: #666DFF;
+}
+/* news letter section end */
+
+/* footer section start */
+.footer .footer-header li a{
+color: #232536;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+}
+.footer .footer-service li  a {
+    color: #232536;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+}
+/* footer section end */
+
+
+/* last footer */
+.last-footer{
+    background: #FFE6D2;
+    padding: 20px 0;
+}
+
+/* last footer */
